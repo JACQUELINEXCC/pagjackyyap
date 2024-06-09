@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <Link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rammetto-one" rel="stylesheet">
+    <title>Tienda de jacky</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: beige;
+            margin:0;
+            padding:20px;
+            color:black;
+        }
+        h1{
+            color:black;
+            text-align:center;
+        }
+        button{
+             background-color: aqua;
+            color: bisque;
+            padding:10 px 15px;
+            margin: 20 px 0;
+            border: 0;
+            border-radius:5 px;
+            cursor: pointer;
+            width: 50%;
+        }
+        buttton:hover{
+            background-color: darkorchid;
+            color:black;
+        }
+        </style>
+ <div style="margin: 24px;">
+    <nav class="navba navbar-light"
+    style="background-color: black;">
+    <div class="countainer">
+        <a class="navbar-brand" href="index.html"
+        >Inicio</a>
+        <div class="collapse navbar-collapse" id="navbarNabDropDown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item
+                 dropdown">
+                 <a class="nav-link dropdown-toggle"
+                 href="" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown"
+                 aria-haspopup="true"
+                 aria-expanded="false">unidad 1</a>
+                 <div class="dropdown-menu"
+                 aria-labelledby="navbarDripdownMenuLink">
+                 <a class="dropdown-item" href="perfil.html">perfil</a><br>
+                 <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                 <a class="dropdown-item" href="tienda.html">Tienda parte 1</a><br>
+                 </div>
+                </li>
+                <li class="nav-item
+                dropdown">
+                <a class="nav-link dropdown-toggle"
+                href="" id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">unidad 2</a>
+                <div class="dropdown-menu"
+                aria-labelledby="navbarDripdownMenuLink">
+                <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                <a class="dropdown-item" href="json.html">JSON</a><br>
+                <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                </div>
+               </li>
+               <li class="nav-item
+               dropdown">
+               <a class="nav-link dropdown-toggle"
+               href="" id="navbarDropdownMenuLink"
+               data-toggle="dropdown"
+               aria-haspopup="true"
+               aria-expanded="false">unidad 3</a>
+               <div class="dropdown-menu"
+               aria-labelledby="navbarDripdownMenuLink">
+               <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+               <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+               </div>
+              </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+</div>
+<div>
+</div>
+</div>
+        <h1>Tienda en linea de abarrotes</h1>
+        <form id="orden">
+            <div class="seccion">
+                <label for="abarrotes">Abarrotes </label>
+                <select id="Abarrotes">
+                    <option value="arroz">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="6">6</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="7">7</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="8">8</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="9">9</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="10">10</label>
+
+
+            </div>
+            </div>
+            <div class="seccion">
+                <label for="enlatados">Enlatados</label>
+                <select id="enlatados">
+                    <option value="sopa">sopa</option>
+                    <option value="vegetales">vegetales</option>
+                    <option value="elote">elote</option>
+                    <option value="ensalada">ensalada</option>
+                    <option value="chiles">chiles</option>
+                    <option value="frijoles">frijoles</option>
+                    <option value="aceitunas">aceitunas </option>
+                    <option value="frutas">frutas</option>
+                    <option value="sardinas">sardinas</option>
+                    <option value="atun">atun</option>
+                    
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                
+            </div>
+
+            </div>
+            <div class="seccion">
+                <label for="lacteos">lacteos</label>
+                <select id="Abarrotes">
+                    <option value="arroz">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                
+            </div>
+
+            </div>
+            <div class="seccion">
+                <label for="botanas">botanas</label>
+                <select id="Abarrotes">
+                    <option value="arroz">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+            </select>
+            <div>
+                cantidad:
+            <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+            <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+            <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+            <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+            <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+            
+        </div>
+            </div>
+            <div class="seccion">
+                <label for="cofiteria">cofiteria</label>
+                <select id="Abarrotes">
+                    <option value="arroz">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                
+            </div>
+            </div>
+            <div class="seccion">
+                <label for="frutas">frutas</label>
+                <select id="Abarrotes">
+                    <option value="arroz">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                
+            </div>
+            </div>
+            <div class="seccion">
+                <label for="bebidas">bebidas</label>
+                <select id="Abarrotes">
+                    <option value="refresco de manzana">Arroz </option>
+                    <option value="consome">consome </option>
+                    <option value="azucar">Azucar </option>
+                    <option value="cafe">cafe</option>
+                    <option value="mole">mole </option>
+                    <option value="sal">sal </option>
+                    <option value="mayonesa">mayonesa </option>
+                    <option value="catsup">catsup </option>
+                    <option value="pasta">pasta </option>
+                    <option value="miel">miel </option>
+                    <option value="cajeta">cajeta </option>
+
+                </select>
+                <div>
+                    cantidad:
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="1">1</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="2">2</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="3">3</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="4">4</label>
+                <label for=""><input type="radio" name="cantidaddeabarrotes"value="5">5</label>
+                
+            </div>
+        <button type="button" onclick="submiform()">Revisar pedido</button>
+    </form>
+<script>
+    function submiform(){
+        const formElements = document.getElementById ('orden');
+        const formData = new FormData(formElements);
+        const queryParams = new URLSearchParams();
+
+        for(let[ key, value] of formData.entries()) {
+            queryParams.append(key,value);
+    }
+    window.location.href = `review_order.html?${queryParams}`;
+    
+   
+}
+    </script>
+</body>
+</html>

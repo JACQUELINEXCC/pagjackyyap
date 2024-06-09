@@ -1,0 +1,270 @@
+{"items":[
+{
+    "category":"Bebidas",
+    "items":[
+        {
+                "name":"limonada",
+                "description":"Una deliciosa limonada refrescante",
+                "price":"$35.00",
+                "image":"img/o1.jpg"
+            
+            
+        },
+        {
+            "name":"AMPER",
+            "description":"Bebida energetica AMPER",
+            "price":"$50.00",
+            "image":"img/02.jpg"
+        
+    },
+    {
+        "name":"agua de frambuesas",
+        "description":"Una deliciosa bebida de frambuesas",
+        "price":"$65.00",
+        "image":"img/03.jpg"
+    
+},
+{
+    "name":"frappe",
+    "description":"Un delicioso frappe de chocolate",
+    "price":"$65.00",
+    "image":"img/04.jpg"
+
+},
+{
+    "name":"Fanta",
+    "description":"Una deliciosa soda refresante de fanta de mandarina",
+    "price":"$150.00",
+    "image":"img/05.jpg"
+
+},
+{
+    "name":"Coca Cola",
+    "description":"Una deliciosa coca cola refrescante helada",
+    "price":"$25.00",
+    "image":"img/06.jpg"
+
+}
+    ]
+    
+
+    }
+  ]
+},
+    {
+ "items":[
+    {
+        "category":"Almuerzos",
+        "items"[:
+            {
+                    "name":"pechuga",
+                    "description":"pechuga con salsa y arroz",
+                    "price":"$55.00",
+                    "image":"img/o7.jpg"
+                
+                
+            },
+            {
+                "name":"carne con mas suplementos",
+                "description":"carne molida con ensalada, arroz,aguacate y platano",
+                "price":"$50.00",
+                "image":"img/08.jpg"
+            
+        },
+        {
+            "name":"pollito",
+            "description":"pedacitos de pollo con brocoli",
+            "price":"$40.00",
+            "image":"img/09.jpg"
+        
+    },
+    {
+        "name":"frappe",
+        "description":"carne con frojoles, arroz y variedad de verduras",
+        "price":"$70.00",
+        "image":"img/10.jpg"
+    
+    },
+    {
+        "name":"spaguetti",
+        "description":"spaguetti con tomate",
+        "price":"$45.00",
+        "image":"img/11.jpg"
+    
+    },
+    {
+        "name":"verduras",
+        "description":"verdura guisada con suplementos",
+        "price":"$50.00",
+        "image":"img/12.jpg"
+    
+    }
+        ]
+        
+    
+        }
+    ]
+    }
+    
+    {"items":[
+        {
+            "category":"Desayuno",
+            "items":[
+                {
+                        "name":"huevito",
+                        "description":"huevo estrellado con aguacate",
+                        "price":"$35.00",
+                        "image":"img/13.jpg"
+                    
+                    
+                },
+{                
+                    "name":"Pan",
+                    "description":"pan con fresas y cafe",
+                    "price":"$50.00",
+                    "image":"img/14.jpg"
+                
+            },
+            {
+                "name":"huevo revuelto",
+                "description":"huevo revuelto con pan tostado y tocino",
+                "price":"$30.00",
+                "image":"img/15.jpg"
+            
+        },
+        {
+            "name":"frappe",
+            "description":"yogurt con cereal y fresas",
+            "price":"$30.00",
+            "image":"img/16.jpg"
+        
+        },
+        {
+            "name":"pan com cafe",
+            "description":"pan con cafe, mermelada y jugo",
+            "price":"$45.00",
+            "image":"img/17.jpg"
+        
+        },
+        {
+            "name":"pan tostado",
+            "description":"pan tostado con salsa especial, carne, aguacate y ramitas",
+            "price":"$40.00",
+            "image":"img/18.jpg"
+        
+        }
+            ]
+            
+        
+            }
+        ]
+        }
+        {"items":[
+            {
+                "category":"Bebidas",
+                "items":[
+                    {
+                            "name":"minis",
+                            "description":"mini comida especial con salmon",
+                            "price":"$80.00",
+                            "image":"img/19.jpg"
+                        
+                        
+                    },
+                    {
+                        "name":"especial",
+                        "description":"comida especial para gustos especiales",
+                        "price":"$90.00",
+                        "image":"img/20.jpg"
+                    
+                    
+                },
+                    
+                {
+                    "name":"agua de frambuesas",
+                    "description":"rollitos de calabaza con un delicioso relleno",
+                    "price":"$90.00",
+                    "image":"img/21.jpg"
+                
+            },
+            {
+                "name":"lo gourmet",
+                "description":"rollitos gourmet",
+                "price":"$125.00",
+                "image":"img/22.jpg"
+            
+            },
+            {
+                "name":"clasificacion gourmet",
+                "description":"minis batidos especiales gourmet",
+                "price":"$30.00",
+                "image":"img/23.jpg"
+            
+            },
+            {
+                "name":"aperitivos",
+                "description":"aperitivos de los mas deliciosos",
+                "price":"$25.00",
+                "image":"img/06.jpg"
+            
+            }
+                ]
+                
+            
+                }
+            ]
+            }
+            {"items":[
+                {
+                    "category":"Postres",
+                    "items":[
+                        {
+                                "name":"de la coleccion minis carlotas",
+                                "description":"minis carlotas con fresa y chocolates",
+                                "price":"$40.00",
+                                "image":"img/25.jpg"
+                            
+                            
+                        },
+                        {
+                            "name":"tartita",
+                            "description":"tartita con crema batida y frambuesas",
+                            "price":"$15.00",
+                            "image":"img/26.jpg"
+                        
+                    },
+                    {
+                        "name":"tarta",
+                        "description":"tarta de tres leches con fruta",
+                        "price":"$45.00",
+                        "image":"img/27.jpg"
+                    
+                },
+                {
+                    "name":"pan con relleno",
+                    "description":"base de pan con relleno de dulce y frutas, especial de fresas",
+                    "price":"$65.00",
+                    "image":"img/28.jpg"
+                
+                },
+                {
+                    "name":"gelatina",
+                    "description":"gelatina gourmet de francia",
+                    "price":"$50.00",
+                    "image":"img/29.jpg"
+                
+                },
+                {
+                    "name":"postre de galleta de oreo",
+                    "description":"postre de galleta de oreo delicioso, con un sabor muy dulce y delicaddo",
+                    "price":"$.00",
+                    "image":"img/30.jpg"
+                
+                }
+                    ]
+                    
+                
+                    }
+                ]
+                }
+                            
